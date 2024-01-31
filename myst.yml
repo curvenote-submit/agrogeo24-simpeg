@@ -1,0 +1,37 @@
+version: 1
+project:
+  title: Introduction to SimPEG using an example with electrical resistivity tomography
+  open_access: true
+  license: CC-BY-4.0
+  keywords:
+    - SimPEG
+    - electrical resistivity tomography
+  date: '2024-02-02'
+  subject: workshop
+  options:
+    kind: Workshop
+  authors:
+    - name: Devin C. Cowan
+      corresponding: true
+      email: devinccowan@gmail.com
+      affiliation: ubc
+    - name: Santiago Soler
+      orcid: 0000-0001-9202-5317
+      affiliation: ubc
+    - name: Lindsey Heagy
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+  affiliations:
+    - id: ubc
+      name: Geophysical Inversion Facility. Earth Ocean and Atmospheric Sciences. University of British Columbia.
+  github: https://github.com/simpeg/agrogeo24
+  abbreviations:
+    ERT: electrical resistivity tomography
+  references:
+    SimPEG: https://docs.simpeg.xyz/
+site:
+  template: book-theme
+  title: Introduction to SimPEG
+  options:
+    logo: logo.png
+    logo_text: Introduction to SimPEG
